@@ -10,7 +10,9 @@ A very simple Symfony app used for learning Symfony 6 using OpenAI, ChatGPT API.
 2. First do, `composer install` to install dependencies
 3. Symfony command: `symfony server:start -d` to start in daemon mode
 4. Visit URL: https://127.0.0.1:8000/ to see running app
-5. To stop the app execute: `symfony server:stop`
+5. Make sure to add your ChatGPT API Secret Key in [.env file](https://github.com/kalwar/AskGPT/blob/e7c52584c548217059ee0df04442908d67422a12/.env#L23)
+6. To stop the app execute: `symfony server:stop`
+7. Feel free suggest new ideas or open PR
 
 # Tech stack
 
